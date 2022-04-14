@@ -1,0 +1,262 @@
+
+{
+	margin: 0;
+	padding: 0;
+    include /etc/nginx/mime.types;
+default_type application/octet-stream;
+}
+.blackInked{cursor: pointer;display: inline-block; background:url(images/blackInked.png) no-repeat 9999px 9999px;background-position:0px 0px;width:200px; height:46px;border: none;outline: none;}
+.blackInked:hover{background-position: -210px 0px;}
+.redButton2,.yellowButton2,.名分板,.jdxb,.san,.kan,.cyxb,.jpwf{outline: none;display: inline-block;position: absolute;width:129px; height:42px;cursor: pointer;border: none;background-position:0px 0px;}
+.redButton2,.名分板,.jdxb,.san,.cyxb,.jpwf{background:url(images/redButton2.png) no-repeat;font:20px "宋体";color: #FFFFFF;text-shadow: 1px 2px 2px #000000;}
+.yellowButton2,.kan{background:url(images/yellowButton2.png) no-repeat;color: #FFFFFF;font:20px "lishu";text-shadow: 1px 2px 1px #000000;}
+.redButton2:hover{background-position:-139px 0px;}
+.jpwf:hover{background-position:-139px 0px;}
+.cyxb:hover{background-position:-139px 0px;}
+.kan:hover{background-position:-139px 0px;}
+.yellowButton2:hover{background-position:-139px 0px;}
+.jdxb:hover{background-position:-139px 0px;}
+.san:hover{background-position:-139px 0px;}
+.san{font-family: '楷体';}
+.名分板:hover{background-position:-139px 0px;}
+.yellowButton3,.fengjue,.kcxb,.kcxb2,.jzan,.ycxb,.jgxb{ display: inline-block; background:url(images/yellowButton3.png) no-repeat 0 0;border: none;position: absolute;cursor: pointer;width:103px; height:31px; text-shadow: 1px 1px 1px #000000,-1px 1px 1px #000000;color: #FFFFFF;font:16px "微软雅黑";}
+.各宫的小板{ display: inline-block; background:url(images/yellowButton3.png) no-repeat 0 0;border: none;position: absolute;cursor: pointer;width:103px; height:34px; text-shadow: 0px 2px 2px #000000;color: #FFFFFF;font: 19px "楷体";}
+.yellowButton3:hover{background-position:-113px 0px;}
+.jgxb:hover{background-position:-113px 0px;}
+.ycxb:hover{background-position:-113px 0px;}
+.jzan:hover{background-position:-113px 0px;}
+.fengjue:hover{background-position:-113px 0px;}
+.kcxb:hover{background-position:-113px 0px;}
+.kcxb2:hover{background-position:-113px 0px;}
+.各宫的小板:hover{background-position:-113px 0px;}
+.largeYellow,.sydb{border: none; display: inline-block; background:url(images/largeYellow.png) no-repeat 0px 0px;width:218px; height:50px;text-shadow: 2px 2px 2px #000000;color: #FFFFFF;font: 27px "楷体";position: absolute;cursor: pointer;}
+.largeYellow:hover{background-position:-228px 0px;}
+.sydb:hover{background-position:-228px 0px;}
+.blueButton2,.bzxb,.sydb2,.wpxb{display: inline-block; background:url(images/blueButton2.png) no-repeat 0px 0px; border: none;position: absolute;cursor: pointer;width:153px; height:37px;color: #FFFFFF;font:20px "lishu";text-shadow: 1px 2px 1px #000000;}
+.blueButton2:hover{background-position:-163px 0px;}
+.wpxb:hover{background-position:-163px 0px;}
+.bzxb:hover{background-position:-163px 0px;}
+.sydb2:hover{background-position:-163px 0px;}
+.ziButton {display: inline-block; background:url(images/ziButton.png) no-repeat 0px 0px;position: absolute;border: none;cursor: pointer;width:115px;height:36px;color: #FFFFFF;font:26px "xingkai";text-shadow: 1px 1px 1px #000000;}
+.ziButton:hover{ background-position:-125px 0px;}
+.shuxinlan{ display: inline-block; background:url(images/shuxinlan.png) no-repeat 9999px 9999px;position: absolute;cursor: pointer;}
+#属性小人:hover{filter: brightness(130%);}
+.yilanbiao {top: 0px;left: 0px;display: inline-block; background:url(images/yilanbiao.png) no-repeat 0px -778px;width:800px; height:480px;position: absolute;cursor: pointer;}
+#yilanbiaoqian:hover{opacity: 0.8;}
+#yilanbiaohou:hover{opacity: 0.8;}
+#wupinqian:hover{opacity: 0.8;}
+#wupinhou:hover{opacity: 0.8;}
+#juqinqian:hover{opacity: 0.8;}
+#juqinhou:hover{opacity: 0.8;}
+#hougongqian:hover{opacity: 0.8;}
+#hougonghou:hover{opacity: 0.8;}
+#waijiaoqian:hover{opacity: 0.8;}
+#waijiaohou:hover{opacity: 0.8;}
+#kcqian:hover{opacity: 0.8;}
+#kchou:hover{opacity: 0.8;}
+#feiziyilanqian:hover{opacity: 0.8;}
+#feiziyilanhou:hover{opacity: 0.8;}
+#syqian:hover{opacity: 0.8;}
+#syhou:hover{opacity: 0.8;}
+#junshiqian:hover{opacity: 0.8;}
+#junshihou:hover{opacity: 0.8;}
+.liebiaoxiang:hover{background-color: rgba(255,255,255,0.2)}
+.feizilbx:hover{background-color: rgba(255,255,255,0.2)}
+.waijiaolbx:hover{background-color: rgba(255,255,255,0.2)}
+.junshilbx:hover{background-color: rgba(255,255,255,0.2)}
+.zinvlbx:hover{background-color: rgba(255,255,255,0.2)}
+.jiajuanlbx:hover{background-color: rgba(255,255,255,0.2)}
+.皇宫的按钮{position: absolute;cursor: pointer;border: none;}
+#map{background: url(images/579.png) -1200px -150px no-repeat;position: absolute;overflow: hidden;top: 0px; left: 0px;width: 800px;height: 480px;display: none;transform: translateX(0px);}
+#citys{outline: none;position: absolute;top: 0px; left: 0px;width: 2000px;height: 800px;}
+.cityIcon{display: inline-block; background:url(images/cityIcon.png) no-repeat;position: absolute;width: 54px;height: 57px;}
+.cityIcon1{display: inline-block; background:url(images/cityIcon1.png) no-repeat;position: absolute;width: 54px;height: 57px;}
+.cxhg{width:332px; height:129px; display: inline-block; background:url(images/cxhg.png) no-repeat 0px -309px;cursor: pointer;}
+.后宫头像{outline: none;position: absolute;top: 25px;left: 280px;cursor: pointer;}
+#qltx0{outline: none;position: absolute;top: 25px;left: 120px;cursor: pointer;}
+#qltx1{outline: none;position: absolute;top: 25px;left: 430px;cursor: pointer;}
+.xIcon,.jdxzq,.qmk{display: inline-block; background:url(images/xIcon.png) no-repeat -585px 0px;width:201px; height:53px;position: absolute;cursor: pointer;}
+.xIcon1{ display: inline-block; background:url(images/xIcon1.png) no-repeat 0px 0px;width:501px; height:41px;position: absolute;color: #FFFFFF;overflow: hidden;font:16px "宋体";text-align: center;cursor: pointer;border: none;text-shadow: 1px 1px 1px #000000;}
+.jdxzl{width:27px; height:25px; background:url(images/xIcon.png) no-repeat -574px -87px;position: absolute;display: inline-block;top: -5px;}
+#出现后宫,#介绍图,#qinglou{animation:apgn 0.5s;}
+#宫背景,#waiguoxx,#wupin,#qita,#椒房殿内,#宣政殿内,#紫宸殿内,#jiajuanyilan,#kaikekaoshi,#yilanbiao{animation:apgn 0.3s;}
+#neishiMB,#jp,#chaguan,#youyuan,#gzhjxz,#xfmb{animation:apgn 0.2s;}
+@keyframes apgn{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+#小提示{left: 0px;top: 10px; width:501px; height:20px;position: absolute;color: #FFFFFF;overflow: hidden;font:16px "宋体";text-align: center;cursor: pointer;text-shadow: 1px 1px 1px #000000;}
+.xuangongmb,.xuantj{ display: inline-block;background:url(images/xuangongmb.png) no-repeat 0px 0px;width:121px; height:341px;position: absolute;cursor: pointer;}
+.选宫背景,.选宫背景1{display: inline-block;position: absolute;height: 280px;width: 200px;clip: rect(0px,165px,350px,50px);}
+#xiaots{animation:xts 4s;}
+#xuanzhongquan,.jdxzq{width:21px; height:19px; background-position:-702px -87px;filter: drop-shadow(3px 2px 2px #ffffff);cursor: pointer;}
+@keyframes xts{
+	0%{background-color: rgba(255, 255, 255, 1);}
+	10%{background-color: rgba(255, 255, 255, 0);}
+	80%{opacity: 1;}
+	100%{opacity: 0;}
+}
+#xtst{animation:xtst 1s;left: -300px;top: 0px;width:68px; height:40px; background-position:0px -87px;position: relative;}
+@keyframes xtst{
+	0%{opacity: 1;}
+	90%{left: 400px;}
+	100%{left: 900px;}
+}
+.xi{ display: inline-block; background:url(images/xi.png) no-repeat 0px 0px;width:81px; height:81px;position: absolute;cursor: pointer;top: 230px;left: 60px;border: none;}
+#小箭头{animation:xjt 1.2s infinite;}
+@keyframes xjt{
+	0%{top: 456px;}
+	50%{top: 460px;}
+	100%{top: 456px;}
+}
+#剧情背景{animation:jqbj 0.5s}
+@keyframes jqbj{
+	0%{filter: brightness(0);}
+	100%{filter: none;}
+}
+#剧情文本{animation:apgn 0.5s;}
+#dengdaihmb{background-color: #000000;display: none;top: 0px;}
+#txmubu{background-color: #434343;opacity: 0.4;width: 250px;height: 350px; display: none;top: 25px;animation:hmb 0.5s;}
+#heimubu{background-color: #000000;animation:hmb 0.61s;display: none;top: 0px;}
+#cddd{background-color: #000000;display: none;top: 0px;opacity: 0.8;}
+@keyframes hmb{
+	0%{}
+	100%{opacity: 0;}
+}
+#lddh{animation:ldl 0.6s}
+@keyframes ldl{
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity: 0;}
+}
+#liebiaotx{top: 80px;left: -40px;position: absolute;display: none;clip: rect(0px,198px,350px,48px);}
+#taijian{ display: inline-block; background:url(images/taijian.png) no-repeat -224px 0px;height:221px;position: absolute;top: 94px;left: 525px;}
+#taijian2{ display: inline-block; background:url(images/taijian.png) no-repeat -224px 0px;height:221px;position: absolute;top: 94px;left: 525px;}
+#dfzouzhe{ left: 5px;bottom: 2px;width:68px; height:27px; background-position:-242px -80px;}
+#gyzouzhe{ left: 73px;bottom: 2px;width:68px; height:27px; background-position:-378px -80px;}
+#jszouzhe{ left: 141px;bottom: 2px;width:68px; height:27px; background-position:-68px -111px;}
+#gbzouzhe{ left: 210px;bottom: 4px;width:20px; height:22px; background-position:-611px -87px;}
+#dfzouzhe:hover{ background-position:-310px -80px;}
+#gyzouzhe:hover{ background-position:0px -111px;}
+#jszouzhe:hover{ background-position:-136px -111px;}
+#gbzouzhe:hover{ height:22px; background-position:-641px -87px;}
+#cityxxbg{top: 132px;left: 240px;position: absolute;width: 303px;height: 217;}
+#mapxx{animation:apgn 0.2s;}
+#dfbg{position: absolute;left: 100px;top: 50px;width: 544px;height: 388px;box-shadow: 0 0 20px 30px #e8e8e8 inset;opacity: 0.8;}
+#dfbg1{position: absolute;left: 100px;top: 50px;width: 544px;height: 388px;box-shadow: 0 0 20px 30px #e8e8e8 inset;}
+#dfbgg{position: absolute;left: 100px;top: 50px;width: 550px;height: 380px;box-shadow: 0 0 10px 5px #e8e8e8;}
+#dfbz{position: absolute;left: 140px;top: 80px;width: 460px;height: 320px;border: 1px solid #000000;}
+#seven{position: absolute;display: none;left: 20px;top: -85px;}
+#皇宫背景2{}
+.junchenglu{
+	font: 90px "xingkai";
+	color: #000000;width: 24px;top: 200px;left: 630px;position: absolute;text-shadow: -1px 1px 1px #ffffff,1px 1px 1px #ffffff;animation: jcl 1.6s infinite;
+}
+.quan{position: absolute;top: 270px;left: 640px;animation: quan 1.5s linear infinite;}
+@keyframes jcl{
+	0%{color: #000000;}
+	30%{color: #545454;}
+	100%{color:  #000000;}
+}
+@keyframes quan{
+	0%{transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
+#huoyan{position: absolute;animation: sd 0.7s;}
+@keyframes sd{
+	0%{}
+	8%{background-image: url(images/974.png) ;left: 0px;top: 0px;width: 800px;height: 480px;}
+	16%{background-image: url(images/975.png) ;left: 0px;top: 0px;width: 800px;height: 480px;}
+	24%{background-image: url(images/976.png) ;left: 0px;top: 0px;width: 800px;height: 480px;}
+	32%{background-image: url(images/977.png) ;left: 0px;top: 0px;width: 800px;height: 480px;}
+	41%{background-image: url(images/978.png) ;left: 0px;top: 0px;width: 800px;height: 480px;}
+	50%{background-image: url(images/979.png) ;left: 0px;top: 0px;width: 800px;height: 469px;}
+	59%{background-image: url(images/980.png);left: 0px;top: 0px;width: 800px;height: 380px;}
+	68%{background-image: url(images/981.png);left: 0px;top: 0px;width: 800px;height: 203px;}
+	76%{background-image: url(images/982.png);left: 0px;top: 0px;width: 800px;height: 160px;}
+	84%{background-image: url(images/983.png);left: 310px;top: 0px;width: 490px;height: 75px;}
+	92%{background-image: url(images/984.png);left: 677px;top: 0px;width: 123px;height: 45px;}
+	100%{background-image: url(images/985.png);left: 775px;top: 0px;width: 90px;height: 25px;}
+}
+#zhezhao{position: absolute;left: 0px;top: 0px;width: 800px;height: 480px;animation: zz 0.7s;}
+@keyframes zz{
+	8%{-webkit-mask-image: url(images/960.png) ;left: 0px;top: 0px;width: 800px;height: 480px;}
+	16%{-webkit-mask-image: url(images/961.png) ;left: 0px;top: 0px;width: 800px;height: 480px;}
+	24%{-webkit-mask-image: url(images/962.png) ;left: 0px;top: 0px;width: 800px;height: 480px;}
+	32%{-webkit-mask-image: url(images/963.png) ;left: 0px;top: 0px;width: 800px;height: 480px;}
+	41%{-webkit-mask-image: url(images/964.png) ;left: 0px;top: 0px;width: 800px;height: 480px;}
+	50%{-webkit-mask-image: url(images/965.png) ;left: 0px;top: 0px;width: 800px;height: 469px;}
+	59%{-webkit-mask-image: url(images/966.png) ;left: 0px;top: 0px;width: 800px;height: 375px;}
+	68%{-webkit-mask-image: url(images/967.png);left: 0px;top: 0px;width: 800px;height: 198px;}
+	76%{-webkit-mask-image: url(images/968.png);left: 0px;top: 0px;width: 800px;height: 158px;}
+	84%{-webkit-mask-image: url(images/969.png);left: 316px;top: 0px;width: 484px;height: 65px;}
+	92%{-webkit-mask-image: url(images/970.png);left: 782px;top: 0px;width: 118px;height: 37px;}
+	100%{-webkit-mask-image: url(images/971.png);left: 810px;top: 0px;width: 90px;height: 17px;}
+}
+#zunzhi{left: 470px;top: 356px; width: 330px;height: 75px;background-color: rgba(0, 0, 0, 0.5);position: absolute;display: none;animation: zun 4s;}
+#zunzhitext{left: 6px;top: 3px;width: 320px;height: 75px;color: #FFFFFF;font: 14px "宋体";position: relative;word-wrap: break-word;overflow: hidden;}
+@keyframes zun{
+	80%{opacity: 1;}
+	100%{opacity: 0;}
+}
+.tiao,.jztiao{background-image: url(images/1846.png);position: absolute;width: 104px;height: 15px;}
+.tiao2,.jztiao2{background-image: url(images/1849.png);position: relative;width: 104px;height: 15px;overflow:hidden;}
+.shux,.jzshux{position: absolute;width: 2em;height: 15px;font-size: 13px;color: #FFFFFF;text-align: center;}
+#太监报告事情图{left: 180px;position: absolute;top: 20px;}
+#taijianShb{width:420px; height:135px;position: absolute;top: 180px;left: 156px;background-position:0px -170px;}
+#taijianBgb{width:420px; height:135px;position: absolute;top: 180px;left: 156px;background-position:0px -170px;}
+#剧情文本{left: 20px;top: 11px;width: 47em;height: 7em;line-height: 19px;}
+#wfb{display: none;width: 800px;height: 430px; top: 0px;left: 0px;position: absolute;}
+#range{bottom: 130px;left: 197px;position: absolute;width: 425px;height: 70px;opacity: 0;cursor: pointer;}
+#rangebg,#bsjdbg{bottom: 100px;left: 180px;position: absolute;width:457px; height:61px; background-position:-78px 0px;cursor: pointer;}
+#rangeqian{bottom: 111px;left: 209px;position: absolute; width:399px; height:38px; background-position:-78px -87px;cursor: pointer;}
+#rangean{bottom: 106px;left: 197px;position: absolute; width:29px; height:77px; background-position:0px 0px;cursor: pointer;}
+#rangean:hover{background-position:-39px 0px;}
+#bsjdqian{bottom: 111px;left: 209px;position: absolute; width:399px; height:38px; background-position:-78px -87px;cursor: pointer;animation: bst 4s;}
+@keyframes bst{
+	0%{width: 0;}
+	100%{width:399px;}
+}
+#jdt{animation: bdjd 5s;}
+@keyframes bdjd{
+	0%{opacity: 1;}
+	80%{opacity: 1;}
+	100%{opacity: 0;}
+}
+#jssm{top: 335px;left: 55px;position: absolute;width:670px; height:100px;font-family: "楷体";}
+.line{top: 100px;left: 48px;position: absolute;width:668px; height:1px;background-color: #000000;}
+#fulukuang,#yykuang,#后宫对话框,#jckuang,#ql框,#cgkuang,#cxkuang{width:420px; height:135px;position: absolute;bottom: 0px;left: 196px;background-position:0px -170px;}
+#fuluText,#yyText,#后宫对话2,#jcText,#ql对话2,#cgText,#cxText{top: 15px;left: 20px;width: 380px;text-shadow: -1px 1px 1px #000000,1px 1px 1px #000000;}
+#fuluan3,#fuluan1,#fuluan2,#出现后宫an1,#出现后宫an2,#出现后宫an3,#yyan1,#yyan2,#qlan1,#qlan2,#qlan3{left:620px;color: #FFFFFF;font:20px;font-family:'楷体';}
+#wenhao1,#wenhao2{left: 15px;bottom: 5px;display: inline-block; background:url(images/xIcon.png) no-repeat -533px -87px;width:31px; height:31px; display: none;position:absolute;cursor: pointer;}
+#wenhao1:hover{filter: brightness(150%);}
+#wenhao2:hover{filter: brightness(150%);}
+.xfxb{position: absolute;width: 115px;height: 161px;border: 2px solid #000000;cursor: pointer;background-size: 100%;}
+.xfxbmz{position: absolute;width: 116px;height: 20px;background-color: rgba(0, 0, 0, 0.4);font: 18px "楷体";color: #aaff7f;text-align: center;text-shadow: -1px 1px 1px #000000,1px 1px 1px #000000;}
+#shizhe1{bottom: 162px;right: 230px;position: absolute;}
+#shizhe0{bottom: 133px;right: 328px;position: absolute;}
+#wupinqian,#kcqian,#tsjzqian,#yilanbiaoqian,#jiajuanqian,#waijiaoqian,#junshiqian,#zinvyilanqian,#feiziyilanqian,#syqian,#juqinqian{top: 170px;left: 740px;width:50px; height:122px; background-position:-573px -389px;}
+#wupinhou,#kchou,#tsjzhou,#yilanbiaohou,#jiajuanhou,#waijiaohou,#junshihou,#zinvyilanhou,#feiziyilanhou,#syhou,#juqinhou{top: 300px;left: 740px;width:50px; height:122px; background-position:-627px -389px;}
+#kuang2{top: 55px;left: 488px;width: 165px;height: 375px;border: 1px solid #444444;position: absolute;}
+#kuang{top: 55px;left: 145px;width: 337px;height: 375px;border: 1px solid #444444;position: absolute;}
+#lmddh{top: 65px;left: 95px;position: absolute;width: 610px;height: 100px;color: #000000;}
+#tzyilanban,#kjyilanban,#jjyilanban,#wjyilanban,#znyilanban,#fzyilanban,#jsyilanban{top: 60px;left: 40px;width:687px; height:379px; background-position:0px 0px}
+#wupinban{top: 74px;left: 30px;position: absolute;}
+#linew{top: 80px;left: 253px;position: absolute;width: 1px;height: 353px;background-color: #000000;}
+.feizilbx,.jiajuanlbx,.waijiaolbx,.zinvlbx,.junshilbx{top: 105px;left: 40px;width: 686px;height: 32px;position: absolute;overflow: hidden;}
+.yilTittle{font:26px "xingkai";text-shadow: 1px 1px 1px #000000,-1px 1px 1px #000000;color: #fafa36;width: 26px;top: 50px;left: 750px;position: absolute;}
+.jzk{border: 1px solid #757575;top: 50px;left: 75px;position:absolute;width: 310px;height:115px;background-color: rgba(255,255,255,0.6);}
+#hdcxtu{position: absolute;top: 80px;left: 250px;width: 303px;height: 217;}
+#hdcxtu2{top: 50px;left: 215px;position: absolute;}
+@keyframes ydl{
+	0%{opacity: 0;}
+	50%{opacity: 1;}
+	100%{opacity: 0;}
+}
+#shengbing{animation: sbl 4s;}
+@keyframes sbl{
+	0%{opacity: 1;}
+	95%{opacity: 1;}
+	100%{opacity: 0;}
+}
+#tiliT{position: absolute;top: 0px;left: 72px;background-color: red;width: 171px;height: 20px;}
